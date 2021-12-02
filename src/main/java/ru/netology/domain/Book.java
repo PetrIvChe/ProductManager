@@ -36,12 +36,12 @@ public class Book extends Product {
             if (!super.equals(o)) return false;
             Book book = (Book) o;
             return  bookTitle == book.getBookTitle()&&
-                    Objects.equals(author, book.bookTitle;
+                    Objects.equals(author, book.bookTitle);
         }
 
         @Override
         public int hashCode () {
-            return Objects.hash(super.hashCode(), author, bookTitle;
+            return Objects.hash(super.hashCode(), author, bookTitle);
         }
 
         @Override
